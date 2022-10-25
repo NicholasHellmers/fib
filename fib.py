@@ -1,5 +1,7 @@
+import numpy as np
+
 class fib: # Useful fibonacci functions
-    
+
     def fib_to_dic(n): # Houses the fibonacci sequence onto a dictionary with index
         fib_dic = {'0' : 0, '1' : 1}
         for i in range(1,n):
